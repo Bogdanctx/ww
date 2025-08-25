@@ -1,6 +1,6 @@
 {
   "recreateWhen": "always",
-  "enabledManagers": ["regex"],
+  "enabledManagers": ["custom.regex"],
   "customManagers": [
     {
       "customType": "regex",
