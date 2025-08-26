@@ -50,9 +50,6 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(ftxui)
 
-get_target_property(real_target ftxui::component ALIASED_TARGET)
-message(STATUS "ftxui::component is an alias for: ${real_target}")
-
 
 ###############################################################################
 
